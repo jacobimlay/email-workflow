@@ -1,0 +1,193 @@
+.body {
+  background: url("https://a7db952183a41ea278f8-fcfe7f903ec751034e4f921befc868ea.ssl.cf2.rackcdn.com/emails_2015/dark_wall-2.png") repeat-x; }
+
+td {
+  font-size: 17px;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.header-wrapper {
+  padding: 0 !important; }
+
+.header {
+  padding-top: 0 !important;
+  height: 153px;
+  border-bottom: 1px solid #d1d0d0; }
+
+table.columns td.header {
+  padding: 8px 0px 10px; }
+
+.grocery-list .header img {
+  padding-bottom: 50px; }
+
+.recipe-detail .header img {
+  padding-bottom: 10px; }
+
+a {
+  display: inline-block; }
+
+h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+h2 {
+  font-size: 19px;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 5px; }
+
+hr {
+  margin-bottom: 0; }
+
+.hr {
+  width: 100% !important;
+  padding-top: 50px !important; }
+
+.shared {
+  font-size: 15px; }
+  .shared + hr {
+    margin-top: 15px; }
+
+.title {
+  margin-bottom: 25px; }
+
+.panel {
+  border: none;
+  background: #f1f1f1;
+  padding: 15px !important; }
+
+table.ingredient-type {
+  table-layout: fixed; }
+  table.ingredient-type td {
+    vertical-align: middle;
+    padding: 0px;
+    font-size: 17px;
+    font-weight: bold; }
+    table.ingredient-type td:first-of-type {
+      width: 55px !important;
+      padding-left: 10px; }
+
+.ingredient-list {
+  padding: 10px 0 0 !important; }
+
+.ingredient-item {
+  table-layout: fixed; }
+  .ingredient-item td {
+    padding: 0 !important;
+    vertical-align: middle; }
+    .ingredient-item td.ingredient-amount {
+      text-align: right;
+      padding-right: 20px !important;
+      font-weight: bold;
+      font-size: 17px; }
+    .ingredient-item td.ingredient-name {
+      padding-left: 10px !important; }
+
+.box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d1d0d0;
+  margin-right: 12px;
+  float: right; }
+
+.box-cell {
+  width: 70px !important; }
+
+table[class="body"] table.columns td.box-cell + td {
+  width: auto !important; }
+
+.ingredient-wrapper {
+  padding: 0 0 8px !important; }
+
+.footer-links {
+  padding-top: 15px !important; }
+  .footer-links > table {
+    table-layout: fixed; }
+    .footer-links > table .app-store {
+      width: 150px !important; }
+    .footer-links > table .website {
+      text-align: right;
+      width: auto !important; }
+
+.ingredient-list p {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.detail-info {
+  font-size: 15px;
+  line-height: 22px; }
+
+.recipe-detail .header {
+  border-bottom: none;
+  height: 110px; }
+
+.recipe-detail td, .recipe-detail p {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.recipe-detail h1 {
+  line-height: 50px; }
+
+.recipe-detail ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .recipe-detail ul > li {
+    font-size: 15px;
+    padding: 3px 0; }
+
+.app-share .header {
+  border-bottom: none !important;
+  height: 100px; }
+
+.app-share table.columns td.header {
+  padding: 28px 0px 0px; }
+
+.app-share td {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center; }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background: url("https://a7db952183a41ea278f8-fcfe7f903ec751034e4f921befc868ea.ssl.cf2.rackcdn.com/emails_2015/logo.png") no-repeat center 18px;
+    height: 153px; }
+    .header img {
+      display: none !important; }
+    .header hr {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+  table[class="body"] table.columns td table.ingredient-type td {
+    width: auto !important; }
+    table[class="body"] table.columns td table.ingredient-type td:first-of-type {
+      width: 55px !important; }
+  table[class="body"] table.columns td.box-cell {
+    width: 70px !important; }
+  table[class="body"] table.columns td.box-cell + td {
+    width: auto !important; }
+  .box-cell {
+    vertical-align: top !important; }
+  .banner {
+    text-align: center; }
+  .banner a {
+    float: none !important;
+    margin: 0 auto; }
+  table[class="body"] table.columns td.footer-links > table {
+    width: 100%; }
+    table[class="body"] table.columns td.footer-links > table td.app-store {
+      width: 150px !important; }
+    table[class="body"] table.columns td.footer-links > table td.website {
+      width: auto !important;
+      text-align: right; }
+  .app-share .header {
+    background: url("https://a7db952183a41ea278f8-fcfe7f903ec751034e4f921befc868ea.ssl.cf2.rackcdn.com/emails_2015/weber-lg.png") no-repeat center 39px; } }
